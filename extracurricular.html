@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Extra-Curricular Website</title>
+  <link rel="icon" href="/title_lo.png" alt="hamroopportunity logo">
+ <meta name="keywords" content="extracurricular in Nepal, opportunities in Nepal, chess competition in nepal, debate in nepal, dance competition">
+  <meta name="author" content="Hamro Opportunity">
+  <link rel="preload" href="/style.css" as="style" />
+  <link rel="preload" href="/script.js" as="script" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand custom-navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="/ho_logo.png" width="112" height="28" alt="hamroopportunity">
+    </a>
+    <!-- <div id="nav-bar-search-icon" class="navbar-item is-hidden-desktop">
+      <button class="button is-white" onclick="toggleSearchOverlay()">
+        <span class="icon is-small has-text-info">
+          <i class="fas fa-search"></i>
+        </span>
+      </button>
+    </div> -->
+    <button class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu"
+      onclick="toggleNavbarMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar has-dropdown is-hoverable">
+        <a href="/index.html">
+          <span class="icon-text pt-3">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+            <span>Home</span>
+          </span>
+        </a>       
+      </div> 
+    </div>   
+  </div>
+</nav>
+
+<!-- Columns -->
+<div class="tile is-ancestor">
+  
+    <div class="tile is-parent">
+    <article class="tile is-child notification custom-notification">
+      <p class="card-header-title is-centered">
+        
+          <span class="icon">
+            <i class="fas fa-angle-left is-left" aria-hidden="true"></i>
+          </span>
+        </a>
+        
+        Extra-Curricular Website
+      
+       
+          <span class="icon">
+            <i class="fas fa-angle-right is-right" aria-hidden="true"></i>
+          </span>
+        </a>
+      </p>
+      
+
+      <div class="content">
+        <!-- Content -->
+        <div class="card-section mt-5">
+          <div class="scrollable-headers">
+            <header class="card-header" onclick="selectContent('sports', this)">
+              <p class="card-header-title">
+                Section 1 : Project Overview
+              </p>
+              <a href="#" class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <header class="card-header" onclick="selectContent('music', this)">
+              <p class="card-header-title">
+                Section 2 : Timeline and Evolution
+              </p>
+              <a href="#" class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <header class="card-header" onclick="selectContent('dance', this)">
+                <p class="card-header-title">
+                  Section 3 : Overcoming Challenges
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+              <header class="card-header" onclick="selectContent('debate', this)">
+                <p class="card-header-title">
+                  Section 4 : Achievements and Future Plan
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+              <header class="card-header" onclick="selectContent('olympiad', this)">
+                <p class="card-header-title">
+                  Section 5 : Team Members
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+              
+            <!-- Add more header options as needed -->
+          </div>
+        </div>
+      </div>
+    </article>
+    </div>
+
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent">
+          <article class="tile is-child notification" id="contentDisplay">
+
+            <!-- Sports / section 1 content starts here. -->
+          <div class="content-block" id="sportsContent" style="display: none;">
+              
+              
+              <div class="container">
+                <strong class="title">What was HO ? </strong> ( in summery)<br><br>
+                <p>Hamro Opportunity" was a year-long project aimed at providing Nepali high school seniors with easy access to information about a wide range of extracurricular events, competitions, and workshops. We integrated details from various sources into a single platform, addressing the challenge of students having to search extensively online for event information that might not be indexed. We ensured that our platform's pages would appear at the top in search engine results. Through collaboration with students from different colleges, we expanded our reach, including rural areas, reaching over 2000 students across Nepal and significantly enhancing student opportunities and growth.</p><br>
+              </div>
+              <div>
+                <div class="container">
+                  <strong class="h1">
+                    Established :
+                  </strong><br><br>
+                
+                  <table class="table is-fullwidth" style="border: none; background-color: transparent;">
+                  <tr>
+                    <td><i class="far fa-calendar-alt" style="margin-right: 0.5rem; color: #FF4500;"></i></td>
+                    <td>16 July 2022</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-globe" style="margin-right: 0.5rem; color: #1E90FF;"></i></td>
+                    <td>https://www.hamrooportunity.com</td>
+                    <td> 
+                      <!-- button to redirect to live website of past website start-->
+                      <p style="text-align: right;">
+                        <button style="width: 60px;
+                                        height: 30px;
+                                        border-radius: 15%;
+                                        background-color: #1E90FF;
+                                        color: #fff;
+                                        border: none;
+                                        cursor: pointer;
+                                        font-size: 16px;">
+                          <a href="https://hamroopportunity.github.io/" target="_blank" ><b>Live</b></a>
+                        </button>
+                       
+                      </p>
+                      <!-- button to redirect to live website of past website end-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem; color: #008000;"></i></td>
+                    <td>Kathmandu</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-coins" style="margin-right: 0.5rem; color: #8A2BE2;"></i></td>
+                    <td>Free Online</td>
+                  </tr>
+                  </table>
+                </div>
+              </div><br>
+              <div class="container">
+                <strong class="title">
+                 Full version
+                </strong><br><br>
+                
+                <div class="container">                  
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" was a year-long project that started with the vision of two individuals and grew into a team of 28 dedicated members. Over the course of one year, our primary objective was to provide Nepali high school seniors with effortless access to information regarding a diverse array of extracurricular events, competitions, and workshops.</p><br><br> 
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-check-circle"></i> Challenges Addressed:
+                  </strong><br><br>
+                  <p>Throughout this year, the project confronted a central issue: students had to search extensively online for event information, often with little success. Our solution involved not only gathering event details but also ensuring that our platform's pages appeared prominently in search engine results, eliminating the need for students to search far and wide.
+                  </p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-check"></i> Solution Provided:
+                  </strong><br><br>
+                  <p>During this year, we diligently collected information from various sources and integrated it into a single platform, effectively streamlining access to event details. Additionally, our project involved collaborating with students from different colleges to broaden our reach, making event information accessible even in rural areas of Nepal.
+                  </p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-users"></i> Target Audience:
+                  </strong><br><br>
+                  <p>High school seniors were our primary focus over the year, as they stood to gain the most from the platform's comprehensive information, contributing to their personal and academic growth.</p><br><br>
+                </div>
+                
+                <div class="container">
+                  <strong class="h1">
+                    <i class="far fa-lightbulb"></i> Project Uniqueness:
+                  </strong><br><br>
+                  <p>In the span of this year, our project's unique approach lay in uniting various platforms to reach the right audience, much like Amazon connects customers and sellers, except without any associated fees.
+                  </p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-bullseye"></i> Impact:
+                  </strong><br><br>
+                  <p>Throughout the year, our project succeeded in enabling students to excel in their respective fields by facilitating their participation in various events. This contributed not only to their academic growth but also nurtured their passions and personal development through easy access to event information.
+                  </p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-trophy"></i> Achievements:
+                  </strong><br><br>
+                  <p>During this year, we are proud to have reached over 2000 students from diverse regions of Nepal, extending beyond the Terai region. Our project made a substantial impact on student opportunities and growth, ensuring they were well-informed about event opportunities.
+                  </p><br><br>
+                </div>
+
+              </div>
+          </div>
+          <!-- Sports /section 1 content ends here. -->
+          
+
+          <!-- music / section 2 content starts here. -->
+          <div class="content-block" id="musicContent" style="display: none;">
+            
+            <div class="container">
+
+              <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" embarked on a journey of growth and evolution over the course of one year. This timeline highlights the key milestones and changes that shaped our project:</p><br><br> 
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check-circle"></i> Project Initiation:
+                </strong><br><br>
+                <p>Our project started with two individuals who shared a vision for providing event information to Nepali students. This initial spark led to the formation of a team of 28 members.
+                </p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Integration and Platform Development:
+                </strong><br><br>
+                <p>Early on, our team set out to collect event information from various sources and began the process of integrating this data into a centralized platform.</p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-users"></i> Collaboration with Students:
+                </strong><br><br>
+                <p>Throughout the project, we actively collaborated with students from different colleges, extending our outreach and ensuring that even those in rural areas had access to event details.</p><br><br>
+              </div>
+              
+              <div class="container">
+                <strong class="h1">
+                  <i class="far fa-lightbulb"></i> Optimizing Search Engine Results: 
+                </strong><br><br>
+                <p>We realized the importance of ensuring that our platform's pages appeared prominently in search engine results, and we worked diligently to achieve this.
+                </p><br><br>
+              </div>
+            </div>
+          </div>
+          <!-- music / section 2 content ends here-->
+
+            <!-- dance section 3 content starts here -->
+          <div class="content-block" id="danceContent" style="display: none;">
+            
+            <div class="container">
+
+              <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" embarked on a journey of growth and evolution over the course of one year. This timeline highlights the key milestones and changes that shaped our project:</p><br><br> 
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check-circle"></i> Project Initiation:
+                </strong><br><br>
+                <p>Our project started with two individuals who shared a vision for providing event information to Nepali students. This initial spark led to the formation of a team of 28 members.
+                </p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Integration and Platform Development:
+                </strong><br><br>
+                <p>Early on, our team set out to collect event information from various sources and began the process of integrating this data into a centralized platform.</p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-users"></i> Collaboration with Students:
+                </strong><br><br>
+                <p>Throughout the project, we actively collaborated with students from different colleges, extending our outreach and ensuring that even those in rural areas had access to event details.</p><br><br>
+              </div>
+              
+              <div class="container">
+                <strong class="h1">
+                  <i class="far fa-lightbulb"></i> Optimizing Search Engine Results: 
+                </strong><br><br>
+                <p>We realized the importance of ensuring that our platform's pages appeared prominently in search engine results, and we worked diligently to achieve this.
+                </p><br><br>
+              </div>
+            </div>
+             
+              
+          </div>
+          <!-- dance section 3 content ends here -->
+
+          <!-- Debate & public speaking section 4 content starts here. -->
+          <div class="content-block" id="debateContent" style="display: none;">
+            
+              
+            <div class="container">
+
+              <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" embarked on a journey of growth and evolution over the course of one year. This timeline highlights the key milestones and changes that shaped our project:</p><br><br> 
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check-circle"></i> Project Initiation:
+                </strong><br><br>
+                <p>Our project started with two individuals who shared a vision for providing event information to Nepali students. This initial spark led to the formation of a team of 28 members.
+                </p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Integration and Platform Development:
+                </strong><br><br>
+                <p>Early on, our team set out to collect event information from various sources and began the process of integrating this data into a centralized platform.</p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-users"></i> Collaboration with Students:
+                </strong><br><br>
+                <p>Throughout the project, we actively collaborated with students from different colleges, extending our outreach and ensuring that even those in rural areas had access to event details.</p><br><br>
+              </div>
+              
+              <div class="container">
+                <strong class="h1">
+                  <i class="far fa-lightbulb"></i> Optimizing Search Engine Results: 
+                </strong><br><br>
+                <p>We realized the importance of ensuring that our platform's pages appeared prominently in search engine results, and we worked diligently to achieve this.
+                </p><br><br>
+              </div>
+            </div>
+              
+          </div>
+
+          <!-- Debate section 4 content ends here. -->
+
+          <!-- olympic / section 5 start here  -->
+          <div class="content-block" id="olympiadContent" style="display: none;">
+
+            <div class="container">
+
+              <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" embarked on a journey of growth and evolution over the course of one year. This timeline highlights the key milestones and changes that shaped our project:</p><br><br> 
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check-circle"></i> Project Initiation:
+                </strong><br><br>
+                <p>Our project started with two individuals who shared a vision for providing event information to Nepali students. This initial spark led to the formation of a team of 28 members.
+                </p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Integration and Platform Development:
+                </strong><br><br>
+                <p>Early on, our team set out to collect event information from various sources and began the process of integrating this data into a centralized platform.</p><br><br>
+              </div>
+            </div>
+          <!-- team members starts  -->
+            <!-- member list 1-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Dipesh Pandit</scam>
+                        </p>
+                        He is the <b>founder</b> of this platform and contributed major role in designing this website.<br><br>
+                        <a href="https://www.linkedin.com/in/dipeshpandit12/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:panditdipesh12@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/dipesh.pandit.12/" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-instagram" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+
+            <!-- member list 2-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Diwas Pandit</scam>
+                        </p>
+                        He is the <b>co-founder</b> of this platform and coordinated as the president of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/diwaspandit12/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:panditdiwas12@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/diwas512/" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-instagram" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+
+            <!-- member list 3-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Anuska Acharya</scam>
+                        </p>
+                        She worked as the <b>vice-president</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/diwaspandit12/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:anuskaa518@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/anuska.acharya.5815" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 4-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Navodit Kuikel</scam>
+                        </p>
+                        He worked as the <b>General Manager</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/navodit-kuikel-9bbb14291/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:navo97.46@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/navodit.kkl" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 5-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Kishor Baniya</scam>
+                        </p>
+                        He worked as the <b>Secretary</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/kishor-baniya-7164bb213/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:kishorbaniya15@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/kishor.baniya.77" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 6-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Niharika Purbey</scam>
+                        </p>
+                        She worked as the <b>Graphic Head</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:akirahiniharika@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/akirahiniharika" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 7-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Sumit Neupane</scam>
+                        </p>
+                        He worked as the <b>Social Media Head</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:neupanesumit95@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/sarad.nyaupane" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 8-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Nikas Ghimire</scam>
+                        </p>
+                        He worked as the <b>Technical Head</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/nikasghimire/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:wasdthedebugger@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/reader.nikas" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 9 -->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Khewang Theeng</scam>
+                        </p>
+                        He worked as the <b>Graphic Members</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:khewang212@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/khewang.theeng" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 10-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Srijan Khatiwada</scam>
+                        </p>
+                        He worked as the <b>Graphic Members</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/srijan-khatiwada-688b0a242/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:srjnkhatiwada@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/srijan.srijan.1804" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 11-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Sachin Shrestha</scam>
+                        </p>
+                        He worked as the <b>Graphic Members</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/sachin-shrestha-6a13b5210/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:sachinstha600@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/sachin.stha.26" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 12-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Palak Rajbanshi</scam>
+                        </p>
+                        She worked as the <b>Graphic Members</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:palakrajbansi001@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/palak.rajbansi" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 13-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Ankita Bhattarai</scam>
+                        </p>
+                        She worked as the <b>Content Editor</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:ankita61400602@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/ankita.bhattarai.351" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 14-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Roshan Shrestha</scam>
+                        </p>
+                        He worked as the <b>Content Editor</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:bhupan369@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/profile.php?id=100031645473492" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 15-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Sujal Pandey</scam>
+                        </p>
+                        He worked as the <b>Content Editor</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/sujal-pandey-8a379428a/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:www.sujalpandey1238@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/suzall.pandey.5" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 16-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Sakshyam Nepal</scam>
+                        </p>
+                        He worked as the <b>Outreach Manager</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:sakshyamnepal364@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/sakshyam.nepal.10" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+             <!-- member list 17-->
+             <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Devaki Rawal</scam>
+                        </p>
+                        She worked as the <b>Outreach Manager</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/devaki-rawal-2574531b5/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:rawaldevaki10@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/codevra.369" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 18-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Aparna Gupta</scam>
+                        </p>
+                        She worked as the <b>Content Writer</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:aparna.gupta520@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/profile.php?id=100069448693529" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 19-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Grishma Shrestha</scam>
+                        </p>
+                        She worked as the <b>Content Writer</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:grsmastha2016@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/grishma.shrestha.5623293" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 20-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Prabin Chandra Gautam</scam>
+                        </p>
+                        He worked as the <b>Content Writer</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:knowledgevscreativity2100@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/bal.mukunda.gautam.369" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 21-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Aadarsha Parajuli</scam>
+                        </p>
+                        He worked as the <b>Content Writer</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:aadarshaparajuli69@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/bhuntay.puryar" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+             <!-- member list 22-->
+             <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Mijan Rana Magar</scam>
+                        </p>
+                        He worked as the <b>SEO Analyser</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:mijan2713@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/mijan.rana.magar.46" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 23-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Manish Mahato</scam>
+                        </p>
+                        He worked as the <b>SEO Analyser</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/manish-kumar-mahato-7b1b9b282/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:emailmkm7@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/manish.krmahato.92" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 24-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Manish Mahato</scam>
+                        </p>
+                        He worked as the <b>SEO Analyser</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/manish-kumar-mahato-7b1b9b282/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:emailmkm7@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/manish.krmahato.92" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 25-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Nerish Shrestha</scam>
+                        </p>
+                        He worked as the <b>Tester</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/nerish-shrestha-30166227a/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:nerish12345@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/atrocious_dinner/" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 26-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Manoj Sahani</scam>
+                        </p>
+                        He worked as the <b>Tester</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:manoj456sahani@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/manojkumar.sahani.1829" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+            <!-- member list 27-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Divyanshu Rai</scam>
+                        </p>
+                        He worked as the <b>Content Writer</b> of this project.<br><br>
+                        <!-- <a href=""target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a> -->
+                        <a href="mailto:divansu22@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/profile.php?id=100071501721015" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+             <!-- member list 28-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Suyog Adhikari</scam>
+                        </p>
+                        He worked as the <b>Content Writer</b> of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/suyog-adhikari-09b157229/" target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:suyogoriginal@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.facebook.com/the.real.suyogg" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-facebook" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+
+            
+          <!-- team members ends  -->
+
+        </div>
+
+          <!--  olympiad content ends here -->
+
+          <!-- Add more content blocks for other options -->
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+
+
+
+    <!-- go top section start -->
+    <div id="go-up-overlay" class="go-up-overlay">
+      <button id="go-up-button" class="button is-info is-rounded">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+    <!-- go top section end -->
+
+<style>
+.custom-notification {
+  border-radius: 20px;
+}
+
+.scrollable-headers {
+  max-height: 420px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+
+.card-header.active {
+  background-color: #7ba4e7;
+}
+
+.card-header.active .card-header-title {
+  font-weight: bold;
+}
+
+
+</style>
+
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+      // Trigger English header and content on page load
+      selectContent('sports', '#sportsLink');
+    });
+   
+
+    function selectContent(option, element) {
+      // Hide all content blocks
+      $(".content-block").hide();
+
+      // Show the selected content block
+      $("#" + option + "Content").show();
+
+      // Remove the active class from all headers
+      $(".card-header").removeClass("active");
+
+      // Add the active class to the selected header
+      $(element).addClass("active");  
+    }
+
+</script>
+<!-- javascript for modals -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function() {
+    // Handle click event on "Diwas" link
+    $("#diwasLink").click(function() {
+      showModal("Diwas", "This channel contain one playlist named '##' for creative Writing. Here you will find the content covering Essay, News Story, News Article and so on.<br><br> <a href='#' target='_blank'><button class='button is-info is-rounded'>Youtube Playlist</button></a>");
+    });
+
+    // Handle click event on "Dipesh" link
+    $("#dipeshLink").click(function() {
+      showModal("Modal title", "Content for Dipesh");
+    });
+
+    // Handle click event on "Hero" link
+    $("#heroLink").click(function() {
+      showModal("Modal title", "Content for Hero");
+    });
+
+    // Close modal when the close button is clicked
+    $(".modal .delete, .modal .button").click(function() {
+      $(".modal").removeClass("is-active");
+    });
+  });
+
+  // Function to show the modal
+  function showModal(title, content) {
+    $(".modal-card-title").text(title);
+    $(".modal-card-body").html(content);
+    $(".modal").addClass("is-active");
+  }
+</script>
+<script src="/script.js"></script>
+</body>
+</html>
