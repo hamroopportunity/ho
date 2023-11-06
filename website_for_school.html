@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Web-Development For School</title>
+  <link rel="icon" href="/title_lo.png" alt="hamroopportunity logo">
+ <meta name="keywords" content="website for schools of Nepal, website in Nepal, build website for schools, free website for schools in Nepal, hamroopportunity project, hamroopportunity website for school project ">
+  <meta name="author" content="Hamro Opportunity">
+  <link rel="preload" href="/style.css" as="style" />
+  <link rel="preload" href="/script.js" as="script" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand custom-navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="/ho_logo.png" width="112" height="28" alt="hamroopportunity">
+    </a>
+    <!-- <div id="nav-bar-search-icon" class="navbar-item is-hidden-desktop">
+      <button class="button is-white" onclick="toggleSearchOverlay()">
+        <span class="icon is-small has-text-info">
+          <i class="fas fa-search"></i>
+        </span>
+      </button>
+    </div> -->
+    <button class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu"
+      onclick="toggleNavbarMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar has-dropdown is-hoverable">
+        <a href="/index.html">
+          <span class="icon-text pt-3">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+            <span>Home</span>
+          </span>
+        </a>       
+      </div> 
+    </div>   
+  </div>
+</nav>
+
+<!-- Columns -->
+<div class="tile is-ancestor">
+  
+    <div class="tile is-parent">
+    <article class="tile is-child notification custom-notification">
+      <p class="card-header-title is-centered">
+        
+          <span class="icon">
+            <i class="fas fa-angle-left is-left" aria-hidden="true"></i>
+          </span>
+        </a>  
+        Web-Development For School
+          <span class="icon">
+            <i class="fas fa-angle-right is-right" aria-hidden="true"></i>
+          </span>
+        </a>
+      </p>
+      <div class="content">
+        <!-- Content -->
+        <div class="card-section mt-5">
+          <div class="scrollable-headers">
+            <header class="card-header" onclick="selectContent('sports', this)">
+              <p class="card-header-title">
+                Section 1 : Project Overview
+              </p>
+              <a href="#" class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <header class="card-header" onclick="selectContent('music', this)">
+              <p class="card-header-title">
+                Section 2 : Timeline and Evolution
+              </p>
+              <a href="#" class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <header class="card-header" onclick="selectContent('dance', this)">
+                <p class="card-header-title">
+                  Section 3 : Overcoming Challenges
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+              <header class="card-header" onclick="selectContent('olympiad', this)">
+                <p class="card-header-title">
+                  Section 4 : Team Members
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+              
+            <!-- Add more header options as needed -->
+          </div>
+        </div>
+      </div>
+    </article>
+    </div>
+
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent">
+          <article class="tile is-child notification" id="contentDisplay">
+
+            <!-- Sports / section 1 content starts here. -->
+          <div class="content-block" id="sportsContent" style="display: none;">
+              
+              
+              <div class="container">
+                <strong class="title">What is Web-Development For School</strong> ( in summery)<br><br>
+                <p>Web-Development For School is a year-long project aimed to provide Schools with well designed website focusing easy access to information for students,parents and visitors about a wide range of course,activities,facilities offered by the school. We integrated various details about the school into a single platform, eradicating the problem of going through various social media sites for finding right information about the school.</p><br>
+              </div>
+              <div>
+                <div class="container">
+                  <strong class="h1">
+                    Established :
+                  </strong><br><br>
+                
+                  <table class="table is-fullwidth" style="border: none; background-color: transparent;">
+                  <tr>
+                    <td><i class="far fa-calendar-alt" style="margin-right: 0.5rem; color: #FF4500;"></i></td>
+                    <td>20 July 2023</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-globe" style="margin-right: 0.5rem; color: #1E90FF;"></i></td>
+                    <td>https://www.ekata.edu.np  &nbsp;&nbsp;
+                      <!-- button to redirect to live website of past website start-->
+                      <button style="width: 60px;
+                      height: 30px;
+                      border-radius: 15%;
+                      background-color: #1E90FF;
+                      color: #fff;
+                      border: none;
+                      cursor: pointer;
+                      font-size: 16px;">
+                        <a href="https://www.ekata.edu.np/" target="_blank" ><b>Live</b></a>
+                      </button></td>
+                      <!-- button to redirect to live website of past website end-->
+                    <td> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem; color: #008000;"></i></td>
+                    <td>Nepal</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-coins" style="margin-right: 0.5rem; color: #8A2BE2;"></i></td>
+                    <td>Free</td>
+                  </tr>
+                  </table>
+                </div>
+              </div><br>
+              <div class="container">
+                <strong class="title">
+                 Full version
+                </strong><br><br>
+                
+                <div class="container">                  
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Web-Ddevelopment for School" This year-long project aims to design user-friendly websites for schools, providing easy access to information for students, parents, and visitors. The websites will showcase a wide range of courses, activities, and facilities offered by the schools, consolidating school-related information into a single, accessible platform, eliminating the need to search across multiple social media sites for relevant details.</p><br><br> 
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-check-circle"></i> Challenges Addressed:
+                  </strong><br><br>
+                  <p>Through the "Web Development for Schools" project, we addressed several challenges, including fragmented information spread across various platforms, difficulties in accessing school-related information, inconsistent online presence, resource limitations, and the lack of a centralized platform. By creating well-designed, user-friendly school websites, we aimed to consolidate information, enhance accessibility, and provide a standardized, centralized source for comprehensive school details, effectively resolving these challenges.</p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-check"></i> Solution Provided:
+                  </strong><br><br>
+                  <p>The solution was to identify schools in the founder's local community that lacked a strong digital presence. The founder and co-founder worked collaboratively, engaging with school staff to understand each school's unique needs. They conducted presentations at each school, effectively conveying the benefits of the project and gaining their acceptance. Once schools were onboard, the team proceeded to work on the project to develop tailored websites to meet their specific requirements. This approach ensured a localized and customized solution for each school.</p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-users"></i> Target Audience:
+                  </strong><br><br>
+                  <p>"Web Development for Schools" caters to educational institutions in Nepal, specifically school administrators, teachers, students, parents, and visitors. We focus on improving the online presence and accessibility of school-related information for a streamlined and efficient experience.</p><br><br>
+                </div>
+                
+                <div class="container">
+                  <strong class="h1">
+                    <i class="far fa-lightbulb"></i> Project Uniqueness:
+                  </strong><br><br>
+                  <p>The uniqueness of "Web Development for Schools" lies in its tailored approach. We identify schools in the founder's locality, working closely with them to understand their specific needs. This personalized interaction ensures that each school receives a website that suits its distinct requirements, effectively addressing the digital challenges faced by schools in Nepal and enhancing their online presence.</p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-bullseye"></i> Impact:
+                  </strong><br><br>
+                  <p>"Web Development for Schools" brings a targeted impact to Nepalese schools. By creating custom websites, it simplifies information access for students, parents, and staff. This streamlined approach enhances digital communication, improving the educational experience for all stakeholders.</p><br><br>
+                </div>
+
+                <div class="container">
+                  <strong class="h1">
+                    <i class="fas fa-trophy"></i> Achievements:
+                  </strong><br><br>
+                  <p>"Web Development for Schools" has successfully designed user-friendly websites for numerous schools in Nepal, improving their digital presence. These achievements have streamlined information access for students, parents, and school staff, making educational resources and updates readily available and enhancing the overall school experience.</p><br><br>
+                </div>
+
+              </div>
+          </div>
+          <!-- Sports /section 1 content ends here. -->
+          
+
+          <!-- music / section 2 content starts here. -->
+          <div class="content-block" id="musicContent" style="display: none;">
+            
+            <div class="container">
+              <div class="container">
+                <strong class="h1"><br>
+                  <i class="fas fa-check-circle"></i> Official Launch in July 2023:
+                </strong><br><br>
+                <p>On 20th, we officially launched "Web-development for Schools" This launch was marked by a simple post in website, which is the first step in introducing our vision to the world.</p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Designing the Website:
+                </strong><br><br>
+                <p>Before the official launch of this project, our founder was actively involved in designing the websites templete inorder to demonstrate to schools' staff. Creating a website from scratch was a significant undertaking, and it could have taken years to complete. Instead, our founder chose to work on customizing a template to save time and effort. Before the launch, we sought feedback and revisions from experts in the field. The result was a website that catered to the needs of school, providing easy navigation, and categorizing events and opportunities available in school premises. You can get a visual sense of how the website looked after the launch by watching this YouTube video:</p><br><br>
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/aJ6Xk_2ex-o?si=LxqXalIupF94i0iB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-users"></i> Formation of the Team:
+                </strong><br><br>
+                <p>For this project, our founder and co-founder collaboratively assembled a team of skilled individuals. Given the project's technical requirements, they handpicked a small group of highly proficient programmers</p><br><br>
+              </div>
+              
+              <!-- <div class="container">
+                <strong class="h1">
+                  <i class="far fa-lightbulb"></i> Conclusion: 
+                </strong><br><br>
+                <p>After a successful year of "Hamro Opportunity," we're thrilled to announce that we're in the final stages of the design phase for our enhanced platform. This comprehensive resource hub is taking shape, and we're actively working on adding content about national and international scholarships and academic resources.<br><br>
+
+                  For a sneak peek at the current design, you can visit the link below. Stay tuned for further updates as we continue to empower students on their academic journey.
+                </p><br>
+                <center><button style="width: 60px; 
+                   height: 30px;
+                   border-radius: 15%; 
+                   background-color: #1e5692; 
+                   color: #fff; 
+                   border: none;
+                   cursor: pointer;
+                   font-size: 16px;"> <a  href="https://hamroopportunity.github.io/" target="_blank"><B>Visit</B></a></button></center>
+                <br>
+              </div> -->
+            </div>
+          </div>
+          <!-- music / section 2 content ends here-->
+
+            <!-- dance section 3 content starts here -->
+          <div class="content-block" id="danceContent" style="display: none;">
+            
+            <div class="container">
+
+              <!-- <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hamro Opportunity" embarked on a journey of growth and evolution over the course of one year. This timeline highlights the key milestones and changes that shaped our project:</p><br><br> 
+              </div> -->
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check-circle"></i> Time Management:
+                </strong><br><br>
+                <p>Our team faced time management challenges due to the demanding academic commitments of our high school executive members. This resulted in occasional delays in posting information on our website, especially during exams and holidays. To address this, we implemented strategies such as prioritization, scheduling, delegation, and flexibility. We emphasized the importance of balancing academics and project work, created schedules that accounted for exam periods and holidays, delegated tasks based on availability and expertise, and maintained flexibility in project deadlines. This allowed us to effectively manage our time without compromising the project's quality.
+                </p><br><br>
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-check"></i> Technology Familiarity: 
+                </strong><br><br>
+                <p>In the initial stages, team members faced difficulties in understanding the technology and methodology implemented on the website. To bridge this knowledge gap, we organized workshops to provide hands-on learning experiences. Additionally, we created comprehensive guide videos to offer clear instructions on the technology and methodology used. These resources allowed team members to gain a better understanding of the project's technological aspects.</p><br><br>
+              
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/ve-nsU-SqAc?si=cDiglVZOMOGa7gT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div><br><br>
+              
+              </div>
+
+              <div class="container">
+                <strong class="h1">
+                  <i class="fas fa-users"></i> Uniform Graphics Design :
+                </strong><br><br>
+                <p>Achieving a consistent and visually appealing template for social media posts presented a challenge. To ensure uniform graphics design, we collaborated closely with our graphics designers. Their expertise in creating visually engaging graphics played a vital role in maintaining consistency and quality.</p><br><br>
+              
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/y-mnaMKU84w?si=M7UjKjofDwhrVmDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div><br><br>
+              
+              </div>
+              
+              <div class="container">
+                <strong class="h1">
+                  <i class="far fa-lightbulb"></i> Effective Communication : 
+                </strong><br><br>
+                <p>Effective communication with team members was crucial for project success. There were instances where we needed to connect with team members to address issues and ensure smooth project operations. We maintained open lines of communication within the team. Regular team meetings, updates, and an accessible communication platform allowed us to address issues promptly. Team members could raise concerns, seek assistance, and collaborate effectively, ensuring that the project ran smoothly.
+                </p><br><br>
+              </div>
+            </div>
+             
+              
+          </div>
+          <!-- dance section 3 content ends here -->
+
+         
+          <!-- olympic / section 4 start here  -->
+          <div class="content-block" id="olympiadContent" style="display: none;">
+
+            <div class="container">
+
+              <div class="container">                  
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our success was a testament to the hard work and commitment of our exceptional team members. Each member brought a unique set of skills and experiences to the project, contributing to our shared vision of providing extracurricular event opportunities to Nepali high school seniors.</p><br> 
+              </div>
+
+              <table class="table is-fullwidth" style="border: none; background-color: transparent;">
+                <tr>
+                  <td>Project Duration</i></td>
+                  <td>365 days</td>
+                </tr>
+                <tr>
+                  <td>Total members</i></td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Hours contributed</i></td>
+                  <td>1000</td>
+                </tr>
+                <tr>
+                  <td>Different places</i></td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>Student reached</i></td>
+                  <td>2000</td>
+                </tr>
+                </table><br>
+            </div>
+          <!-- team members starts  -->
+            <!-- member list 1-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Dipesh Pandit</scam>
+                        </p>
+                        He is the <b>founder</b> of this platform and contributed major role in designing this website.<br><br>
+                        <a href="https://www.linkedin.com/in/dipeshpandit12/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:panditdipesh12@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/dipesh.pandit.12/" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-instagram" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+
+            <!-- member list 2-->
+            <div class="main-card card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="card-1 text-card">
+                    <div class="card-content">
+                      <div class="content"> 
+                        <p class="title is-4">
+                          <scam>Diwas Pandit</scam>
+                        </p>
+                        He is the <b>co-founder</b> of this platform and coordinated as both designer and communication officer of this project.<br><br>
+                        <a href="https://www.linkedin.com/in/diwaspandit12/"target="_blank" style="display: inline-block; text-decoration: none; margin-right: 10px;">
+                          <i class="fab fa-linkedin" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                        <a href="mailto:panditdiwas12@gmail.com" style="display: inline-block; text-decoration: none;">
+                          <i class="fas fa-envelope" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>&nbsp;
+                        <a href="https://www.instagram.com/diwas512/" target="_blank" style="display: inline-block; text-decoration: none;">
+                          <i class="fab fa-instagram" style="font-size: 24px; color: #1e5692;"></i>
+                        </a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div><br>
+
+            
+          <!-- team members ends  -->
+
+        </div>
+
+          <!--  olympiad content ends here -->
+
+          <!-- Add more content blocks for other options -->
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+
+
+
+    <!-- go top section start -->
+    <div id="go-up-overlay" class="go-up-overlay">
+      <button id="go-up-button" class="button is-info is-rounded">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+    <!-- go top section end -->
+
+<style>
+.custom-notification {
+  border-radius: 20px;
+}
+
+.scrollable-headers {
+  max-height: 420px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+
+.card-header.active {
+  background-color: #7ba4e7;
+}
+
+.card-header.active .card-header-title {
+  font-weight: bold;
+}
+
+
+</style>
+
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+      // Trigger English header and content on page load
+      selectContent('sports', '#sportsLink');
+    });
+   
+
+    function selectContent(option, element) {
+      // Hide all content blocks
+      $(".content-block").hide();
+
+      // Show the selected content block
+      $("#" + option + "Content").show();
+
+      // Remove the active class from all headers
+      $(".card-header").removeClass("active");
+
+      // Add the active class to the selected header
+      $(element).addClass("active");  
+    }
+
+</script>
+<!-- javascript for modals -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function() {
+    // Handle click event on "Diwas" link
+    $("#diwasLink").click(function() {
+      showModal("Diwas", "This channel contain one playlist named '##' for creative Writing. Here you will find the content covering Essay, News Story, News Article and so on.<br><br> <a href='#' target='_blank'><button class='button is-info is-rounded'>Youtube Playlist</button></a>");
+    });
+
+    // Handle click event on "Dipesh" link
+    $("#dipeshLink").click(function() {
+      showModal("Modal title", "Content for Dipesh");
+    });
+
+    // Handle click event on "Hero" link
+    $("#heroLink").click(function() {
+      showModal("Modal title", "Content for Hero");
+    });
+
+    // Close modal when the close button is clicked
+    $(".modal .delete, .modal .button").click(function() {
+      $(".modal").removeClass("is-active");
+    });
+  });
+
+  // Function to show the modal
+  function showModal(title, content) {
+    $(".modal-card-title").text(title);
+    $(".modal-card-body").html(content);
+    $(".modal").addClass("is-active");
+  }
+</script>
+<script src="/script.js"></script>
+</body>
+</html>
